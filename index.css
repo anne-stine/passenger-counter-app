@@ -1,0 +1,80 @@
+body {
+    background: rgb(187, 158, 178);
+    margin: 0 0 10px 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.welcome-message {
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+    text-align: left;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.card-container {
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 8px #000;
+    border: 2px solid #000;
+    border-radius: 25px;
+    margin: 50px auto;
+    padding: 50px 30px;
+}
+
+h1,h2,p,button {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 15px;
+}
+
+button {
+    border-radius: 50px;
+    width: 70%;
+    padding: 15px 20px;
+    border: 2px solid;
+    margin: 10px auto;
+}
+
+button:hover {
+    background: rgb(158, 158, 187);
+    box-shadow: inset 5em 1em rgba(255, 255, 255, 0.2), 2px 4px #000;
+}
+
+#save-el {
+    margin: 15px auto;
+}
+
+#increment-btn {
+    background: rgb(103, 103, 245);
+}
+
+#save-btn {
+    background: rgb(31, 192, 31);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 156);
+}
+
+a:hover {
+    border-bottom: 2px solid;
+    animation-direction: alternate;
+}
